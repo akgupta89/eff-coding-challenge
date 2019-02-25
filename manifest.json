@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Install HTTPS Everywhere",
+  "version": "1.0",
+  "description": "Prompts to install of HTTPS Everywhere on specific websites or sites with specific meta tags.",
+  "icons": {
+    "48": "assets/icon-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/app.js"],
+      "css": ["src/css/app.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "assets/https-everywhere-logo.png"
+  ]
+}
