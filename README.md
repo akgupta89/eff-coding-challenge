@@ -20,7 +20,7 @@ Requires Chrome (tested on Chrome v72)
 ## Testing
 * Visiting <https://schneier.com> should display the prompt
 * Visiting <https://eff.org> should display the prompt
-* Visiting <https://blog.cryptographyengineering.com/ should display the prompt
+* Visiting <https://blog.cryptographyengineering.com/> should display the prompt
 * Visiting <https://twitter.com/matthew_d_green> should display the prompt
 * Visiting <https://www.example.com> should display the prompt
 
